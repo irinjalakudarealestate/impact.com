@@ -124,7 +124,7 @@
 	width: 26px;
 	right: 0;
 	height: 3px;
-	background-color: var(--red);
+	background-color: green;
 	outline: 1px solid transparent;
 	-webkit-transition-property: background-color, -webkit-transform;
 	-moz-transition-property: background-color, -moz-transform;
@@ -437,4 +437,5 @@ a[href^="tel"] {
       margin-top: 10px;
       margin-bottom: 10px;
     }
+
 
