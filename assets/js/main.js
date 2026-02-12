@@ -19,7 +19,7 @@
 			//myModal.show();
 			$('.btn-contactSM_btn', document).trigger('click');
 		}
-    }, 5000); // 10000 milliseconds = 5 seconds
+    }, 50000); // 10000 milliseconds = 5 seconds
     
     // Initiate the wowjs
     new WOW().init();
@@ -87,3 +87,4 @@
 	const message ="We received your Message, Thank you.";    
       document.getElementById('message').textContent = decodeURIComponent(message);
     }
+
